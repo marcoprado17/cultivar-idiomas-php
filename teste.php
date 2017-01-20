@@ -44,20 +44,6 @@
                 </div>
 
                 <div>
-                    <!-- <% for(var i=1; i<questoes.length + 1; i++) { %>
-                        <div class="funkyradio" id='question<%= i%>' style="display: none;">
-                            <h3><%= questoes[i-1].pergunta%></h3>
-                            <h3><%= questoes[i-1].cont%></h3>
-                            <hr>
-                            <% for(var j=1; j<questoes[i-1].alternativas.length + 1; j++) { %>
-                                <div class="funkyradio-success">
-                                    <input type="radio" id="opt<%= i%><%= j%>" name="opt"/>
-                                    <label for="opt<%= i%><%= j%>"><%= questoes[i-1].alternativas[j-1]%></label>
-                                </div>
-                            <% } %>
-                        </div>
-                    <% } %> -->
-
                     <button class="btn btn-primary btn-next" id="proximo-button" style="display: none;">Proximo</button>
                     <button class="btn btn-primary btn-next" id="finish-button" style="display: none;">Finalizar</button>
                 </div>
@@ -78,11 +64,7 @@
 	<?php include 'footer.php';?>
   <?php include 'shared-scripts.php';?>
   <script type="text/javascript">
-      // var answers = [];
-      // var language = '<%=idioma%>';
-      // <% for(var i=0; i<questoes.length; i++) { %>
-      //       answers.push(<%= questoes[i].resposta%>);
-      // <% } %>
+
   </script>
 	<script src="js/teste.js"></script>
 </body>
