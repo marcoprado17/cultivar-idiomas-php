@@ -50,19 +50,19 @@
 				<img src="img/slide2_cursos.png" alt="Segundo slide">
 
 				<div class="carousel-caption align-left">
-					<img data-animation="animated bounceInLeft" src="USA.png" alt="Bandeira dos Estados Unidos da América" class="first-flag-img-in-languages-carousel course-img"  >
+					<img data-animation="animated bounceInLeft" src="img/USA.png" alt="Bandeira dos Estados Unidos da América" class="first-flag-img-in-languages-carousel course-img"  >
 					<span data-animation="animated bounceInLeft" class="lang-text">Inglês</span>
 					<br>
-					<img data-animation="animated bounceInLeft" src="Germany.png" alt="Bandeira da Alemanha"   class="course-img">
+					<img data-animation="animated bounceInLeft" src="img/Germany.png" alt="Bandeira da Alemanha"   class="course-img">
 					<span data-animation="animated bounceInLeft" class="lang-text">Alemão</span>
 					<br>
-					<img data-animation="animated bounceInLeft" src="Spain.png" alt="Bandeira da Espanha"   class="course-img">
+					<img data-animation="animated bounceInLeft" src="img/Spain.png" alt="Bandeira da Espanha"   class="course-img">
 					<span data-animation="animated bounceInLeft" class="lang-text">Espanhol</span>
 					<br>
-					<img data-animation="animated bounceInLeft" src="China.png" alt="Bandeira da China"   class="course-img">
+					<img data-animation="animated bounceInLeft" src="img/China.png" alt="Bandeira da China"   class="course-img">
 					<span data-animation="animated bounceInLeft" class="lang-text">Mandarim</span>
 					<br>
-					<img data-animation="animated bounceInLeft" src="Japan.png" alt="Bandeira do Japão"   class="course-img">
+					<img data-animation="animated bounceInLeft" src="img/Japan.png" alt="Bandeira do Japão"   class="course-img">
 					<span data-animation="animated bounceInLeft" class="lang-text">Japonês</span>
 					<br>
 					<p class="carousel-small-text">E muito mais...</p>
