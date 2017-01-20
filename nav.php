@@ -15,7 +15,7 @@
         <li class="cursos-nav-btn"><a href="http://cultivari1.uh-app.com.br/cursos">Cursos</a></li>
         <li class="depoimentos-nav-btn"><a href="http://cultivari1.uh-app.com.br/depoimentos">Depoimentos</a></li>
         <li class="escolas-e-localizacao-nav-btn"><a href="http://cultivari1.uh-app.com.br/escolas-e-localizacao">Escolas e Localização</a></li>
-        <li class="contato-nav-btn active"><a href="http://cultivari1.uh-app.com.br/contato">Contato</a></li>
+        <li class="contato-nav-btn"><a href="http://cultivari1.uh-app.com.br/contato">Contato</a></li>
         <li class="teste-nav-btn dropdown">
           <a href="http://cultivari1.uh-app.com.br/contato#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teste de idiomas<span class="caret"></span></a>
           <ul class="dropdown-menu">
