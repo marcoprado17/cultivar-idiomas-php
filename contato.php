@@ -2,7 +2,7 @@
 <html>
 <head>
   <?php include 'shared-head.php';?>
-  <link rel="stylesheet" href="style/contato.css">
+  <link rel="stylesheet" href="css/contato.css">
   <title>Contato | Cultivar Idiomas</title>
 </head>
 <body>
