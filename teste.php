@@ -18,7 +18,7 @@
             <div class="col-md-6">
                 <div class="panel panel-default" id="init-form">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Teste seu <%=idioma%> e receba o resultado na hora</h3>
+                        <h3 class="panel-title">Teste seu <?php echo $idioma;?> e receba o resultado na hora</h3>
                     </div>
                     <div class="panel-body">
                          <form id = "contact-form" onSubmit="return initForm()">
@@ -44,7 +44,7 @@
                 </div>
 
                 <div>
-                    <% for(var i=1; i<questoes.length + 1; i++) { %>
+                    <!-- <% for(var i=1; i<questoes.length + 1; i++) { %>
                         <div class="funkyradio" id='question<%= i%>' style="display: none;">
                             <h3><%= questoes[i-1].pergunta%></h3>
                             <h3><%= questoes[i-1].cont%></h3>
@@ -56,7 +56,7 @@
                                 </div>
                             <% } %>
                         </div>
-                    <% } %>
+                    <% } %> -->
 
                     <button class="btn btn-primary btn-next" id="proximo-button" style="display: none;">Proximo</button>
                     <button class="btn btn-primary btn-next" id="finish-button" style="display: none;">Finalizar</button>
@@ -78,11 +78,11 @@
 	<?php include 'footer.php';?>
   <?php include 'shared-scripts.php';?>
   <script type="text/javascript">
-      var answers = [];
-      var language = '<%=idioma%>';
-      <% for(var i=0; i<questoes.length; i++) { %>
-            answers.push(<%= questoes[i].resposta%>);
-      <% } %>
+      // var answers = [];
+      // var language = '<%=idioma%>';
+      // <% for(var i=0; i<questoes.length; i++) { %>
+      //       answers.push(<%= questoes[i].resposta%>);
+      // <% } %>
   </script>
 	<script src="js/teste.js"></script>
 </body>

@@ -301,6 +301,6 @@
       ["Mark doesn'’'t know the answer, and Alex doesn'’'t know the answer.", "Mark knows the answer, but Alex doesn'’'t know it.", "Mark and Alex both know the answer."],
       1 //"a"
     ]
-  ]
+  ];
   include 'teste.php';
 ?>
