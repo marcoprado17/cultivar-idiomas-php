@@ -93,10 +93,12 @@ function setFinishAction() {
 		  dataType: "json",
 		  statusCode: {
 		    400: function() {
+		    	console.log(400);
       			//fail case
       		},
     		200: function() {
     			//success case
+    			console.log(200);
     		}
   		}});
 	});
