@@ -43,8 +43,6 @@
 		 
 		if(!$mail->Send()){
 			http_response_code(400);
-			echo "$email";
-			echo "$password";
 		}else{
 			http_response_code(200);
 		}
