@@ -10,8 +10,6 @@
   <?php include 'nav.php';?>
 
 	<div class="container">
-      <?php var_dump($idioma);?>
-      <?php var_dump($questoes);?>
 	    <div class="row" id="questions">
             <div class="col-md-3">
             </div>
@@ -44,8 +42,23 @@
                 </div>
 
                 <div>
-                    <button class="btn btn-primary btn-next" id="proximo-button" style="display: none;">Proximo</button>
-                    <button class="btn btn-primary btn-next" id="finish-button" style="display: none;">Finalizar</button>
+                  <?php 
+                    for ($i = 1; $i <= count($questoes)+1; $i++) {
+                      echo "<div class='funkyradio' id='question$i' style='display: none;'>";
+                        echo "<h3>questoes[$i-1][0]</h3>"
+                        echo "<h3></h3>"
+                        echo "<hr>"
+                        for ($j = 1; $j <= count($questoes[$i-1][1]); $j++) {
+                          echo "<div class='funkyradio-success'>"
+                            echo "<input type='radio' id='opt$i$j' name='opt'/>"
+                            echo "<label for='opt$i$j'>questoes[$i-1][1][$j-1]</label>"
+                          echo "</div>"
+                        }
+                      echo "</div>"
+                    }
+                  ?>
+                  <button class="btn btn-primary btn-next" id="proximo-button" style="display: none;">Proximo</button>
+                  <button class="btn btn-primary btn-next" id="finish-button" style="display: none;">Finalizar</button>
                 </div>
             </div>
             <div class="col-md-3">
@@ -64,7 +77,13 @@
 	<?php include 'footer.php';?>
   <?php include 'shared-scripts.php';?>
   <script type="text/javascript">
-
+    var answers = [];
+    var language = '<?php echo $idioma;?>';
+    <?php 
+      for ($i = 0; $i <= count($questoes); $i++) {
+        echo "answers.push($questoes[i][2]);"
+      }
+    ?>
   </script>
 	<script src="js/teste.js"></script>
 </body>
