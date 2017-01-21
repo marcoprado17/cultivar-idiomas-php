@@ -13,16 +13,14 @@
 		 
 		/* abaixo as veriaveis principais, que devem conter em seu formulario*/
 		 
-		$remetenteNome  = "Contato2";
-		$remetenteEmail = "contato2@cultivaridiomas.com.br";
-		$assunto  = "Assunto...";
-		$mensagem = "Mensagem...";
+		$remetenteNome  = $_POST["name"];
+		$remetenteEmail = $_POST["email"];
+		$mensagem = $_POST["message"];
 		 
-		$mensagemConcatenada = 'Formulário gerado via website'.'<br/>'; 
+		$mensagemConcatenada = 'Formulário de contato gerado'.'<br/>'; 
 		$mensagemConcatenada .= '-------------------------------<br/><br/>'; 
 		$mensagemConcatenada .= 'Nome: '.$remetenteNome.'<br/>'; 
 		$mensagemConcatenada .= 'E-mail: '.$remetenteEmail.'<br/>'; 
-		$mensagemConcatenada .= 'Assunto: '.$assunto.'<br/>';
 		$mensagemConcatenada .= '-------------------------------<br/><br/>'; 
 		$mensagemConcatenada .= 'Mensagem: "'.$mensagem.'"<br/>';
 
