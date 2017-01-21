@@ -10,6 +10,9 @@
   <?php include 'nav.php';?>
 
   <div class="container">
+    <?php include "../dados/data.php" ?>
+    <?php echo "$email" ?>
+
     <div class="row">
       <div class="col-md-6 contact-message">
         <h3>Visite uma de <a href="/escolas-e-localizacao">nossas escolas</a></h3>
