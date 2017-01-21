@@ -2,7 +2,7 @@
 	if( array_key_exists("email", $_POST) and array_key_exists("name", $_POST) and array_key_exists("message", $_POST)){
 		$to      = 'marco.pdsv@gmail.com';
 		$subject = 'Novo contato do seu site!';
-		$message = 'Olá,\n\n' . $_POST["name"] . ' entrou em contato com você.\n' . 'E-mail de contato: ' . $_POST["email"] . '\n\nMensagem: ' . $_POST["message"];
+		$message = 'Olá,<br><br>' . $_POST["name"] . ' entrou em contato com você.<br>' . 'E-mail de contato: ' . $_POST["email"] . '<br><br>Mensagem: ' . $_POST["message"];
 		$headers = 'From: no-reply@cultivaridiomas.com.br' . "\r\n" .
 		    'X-Mailer: PHP/' . phpversion();
 
