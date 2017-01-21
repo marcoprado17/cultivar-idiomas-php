@@ -23,7 +23,10 @@
 		$mensagemConcatenada .= 'Nome: '.$remetenteNome.'<br/>'; 
 		$mensagemConcatenada .= 'E-mail: '.$remetenteEmail.'<br/>'; 
 		$mensagemConcatenada .= '-------------------------------<br/><br/>'; 
-		$mensagemConcatenada .= 'Mensagem: "'.$mensagem.'"<br/>';
+		$mensagemConcatenada .= 'Mensagem: <br/>';
+		$mensagemConcatenada .= '<div style="white-space: pre-wrap;">';
+		$mensagemConcatenada .= $mensagem;
+		$mensagemConcatenada .= '</div>';
 
 		require_once('PHPMailer-master/PHPMailerAutoload.php');
  
