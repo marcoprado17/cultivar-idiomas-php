@@ -12,7 +12,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 contact-message">
-        <h3>Visite uma de <a href="http://cultivari1.uh-app.com.br/escolas-e-localizacao">nossas escolas</a></h3>
+        <h3>Visite uma de <a href="/escolas-e-localizacao">nossas escolas</a></h3>
         <h4>Ou envie uma mensagem para a gente</h4>
         <h4>Responderemos assim que possível</h4>
       </div>
