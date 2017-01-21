@@ -1,9 +1,10 @@
 <?php
 	if( array_key_exists("email", $_POST) and array_key_exists("name", $_POST) and array_key_exists("phone", $_POST) and array_key_exists("correct", $_POST) and array_key_exists("language", $_POST)){
 		include "../dados/data.php";
-		
+
 		$enviaFormularioParaNome = "Cultivar Idiomas Contato";
 		$enviaFormularioParaEmail = $email;
+		 
 		 
 		$caixaPostalServidorNome = "Cultivar Idiomas Contato";
 		$caixaPostalServidorEmail = $email;
