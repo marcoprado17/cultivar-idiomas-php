@@ -3,8 +3,11 @@
 		$to      = 'contato2@cultivaridiomas.com.br';
 		$subject = 'Novo contato do seu site!';
 		$message = "Olá,\r\n\r\n" . $_POST["name"] . " entrou em contato com você.\r\n" . "E-mail de contato: " . $_POST["email"] . "\r\n\r\nMensagem: " . $_POST["message"];
-		$headers = 'From: no-reply@cultivaridiomas.com.br' . "\r\n" .
-		    'X-Mailer: PHP/' . phpversion();
+		
+		$headers = "From: " . "no-reply@cultivaridiomas.com.br" . PHP_EOL;
+	    $headers .= "Reply-To: ". $email . PHP_EOL;
+	    $headers .= "MIME-Version: 1.0" . PHP_EOL;
+	    $headers .= "Content-Type: text/html; charset=ISO-8859-1" . PHP_EOL;
 
 		$email_sent = mail($to, $subject, $message, $headers);
 
