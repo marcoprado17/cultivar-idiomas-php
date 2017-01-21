@@ -15,6 +15,7 @@
 		 
 		$remetenteNome  = $_POST["name"];
 		$remetenteEmail = $_POST["email"];
+		$assunto  = "Novo formulário de contato";
 		$mensagem = $_POST["message"];
 		 
 		$mensagemConcatenada = 'Formulário de contato gerado'.'<br/>'; 
