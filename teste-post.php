@@ -1,11 +1,13 @@
 <?php
 	if( array_key_exists("email", $_POST) and array_key_exists("name", $_POST) and array_key_exists("phone", $_POST) and array_key_exists("correct", $_POST) and array_key_exists("language", $_POST)){
+		include "../dados/data.php";
+		
 		$enviaFormularioParaNome = "Cultivar Idiomas Contato";
-		$enviaFormularioParaEmail = "contato2@cultivaridiomas.com.br";
+		$enviaFormularioParaEmail = $email;
 		 
 		$caixaPostalServidorNome = "Cultivar Idiomas Contato";
-		$caixaPostalServidorEmail = 'contato2@cultivaridiomas.com.br';
-		$caixaPostalServidorSenha = 'a2b4c6d8e0';
+		$caixaPostalServidorEmail = $email;
+		$caixaPostalServidorSenha = $password;
 		 
 		$assunto  = "Novo teste de " . $_POST["language"];
 		 
