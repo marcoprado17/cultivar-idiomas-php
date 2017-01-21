@@ -14,7 +14,7 @@
       include "../dados/data.php";
       echo "$email";
     ?>
-    <?php echo "$email" ?>
+    <?php echo "$email"; ?>
 
     <div class="row">
       <div class="col-md-6 contact-message">
