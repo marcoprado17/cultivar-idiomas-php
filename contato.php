@@ -9,8 +9,6 @@
   <?php include 'header.php';?>
   <?php include 'nav.php';?>
 
-  <?php include "../dados/data.php"; echo "$email"?>
-
   <div class="container">
     <div class="row">
       <div class="col-md-6 contact-message">
