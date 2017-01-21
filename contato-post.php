@@ -3,7 +3,8 @@
 		$to      = "contato2@cultivaridiomas.com.br";
 		$subject = "Novo contato do seu site!";
 		$message = "Olá,\r\n\r\n" . $_POST["name"] . " entrou em contato com você.\r\n" . "E-mail de contato: " . $_POST["email"] . "\r\n\r\nMensagem: " . $_POST["message"];
-
+		$message = wordwrap($message, 70);
+		
 		$headers = "From: " . "no-reply@cultivaridiomas.com.br" . PHP_EOL;
 	    $headers .= "Reply-To: ". "no-reply@cultivaridiomas.com.br" . PHP_EOL;
 	    $headers .= "MIME-Version: 1.0" . PHP_EOL;
