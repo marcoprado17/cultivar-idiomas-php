@@ -45,13 +45,13 @@
                   <?php 
                     for ($i = 1; $i <= count($questoes)+1; $i++) {
                       echo "<div class='funkyradio' id='question$i' style='display: none;'>\n";
-                        echo "<h3>" . questoes[$i-1][0] . "</h3>\n";
+                        echo "<h3>" . $questoes[$i-1][0] . "</h3>\n";
                         echo "<h3></h3>\n";
                         echo "<hr>\n";
                         for ($j = 1; $j <= count($questoes[$i-1][1]); $j++) {
                           echo "<div class='funkyradio-success'>\n";
                             echo "<input type='radio' id='opt$i$j' name='opt'/>\n";
-                            echo "<label for='opt$i$j'>" . questoes[$i-1][1][$j-1] . "</label>\n";
+                            echo "<label for='opt$i$j'>" . $questoes[$i-1][1][$j-1] . "</label>\n";
                           echo "</div>\n";
                         }
                       echo "</div>\n";
@@ -81,7 +81,7 @@
     var language = '<?php echo $idioma;?>';
     <?php 
       for ($i = 0; $i <= count($questoes); $i++) {
-        echo "answers.push(" . $questoes[i][2] . ");\n";
+        echo "answers.push(" . $questoes[$i][2] . ");\n";
       }
     ?>
   </script>
