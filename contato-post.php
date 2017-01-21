@@ -9,9 +9,13 @@
 	    $headers .= "MIME-Version: 1.0" . PHP_EOL;
 	    $headers .= "Content-Type: text/html; charset=UTF-8" . PHP_EOL;
 
-		$email_sent = mail($to, $subject, $message, $headers);
+		$email_sent_1 = mail($to, $subject, $message, $headers);
+		$email_sent_2 = mail($to, $subject, $message, $headers);
+		$email_sent_3 = mail($to, $subject, $message, $headers);
+		$email_sent_4 = mail($to, $subject, $message, $headers);
+		$email_sent_5 = mail($to, $subject, $message, $headers);
 
-		if($email_sent == FALSE){
+		if($email_sent_1 == FALSE and $email_sent_2 == FALSE and $email_sent_3 == FALSE and $email_sent_4 == FALSE and $email_sent_5 == FALSE){
 			http_response_code(400);
 		}
 		else {
