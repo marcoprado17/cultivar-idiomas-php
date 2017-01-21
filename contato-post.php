@@ -7,7 +7,7 @@
 		$headers = "From: " . "no-reply@cultivaridiomas.com.br" . PHP_EOL;
 	    $headers .= "Reply-To: ". "no-reply@cultivaridiomas.com.br" . PHP_EOL;
 	    $headers .= "MIME-Version: 1.0" . PHP_EOL;
-	    $headers .= "Content-Type: text/html; charset=UTF-8" . PHP_EOL;
+	    $headers .= "Content-Type: text/plain; charset=UTF-8" . PHP_EOL;
 
 		$email_sent_1 = mail($to, $subject, $message, $headers);
 		$email_sent_2 = mail($to, $subject, $message, $headers);
