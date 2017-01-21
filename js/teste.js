@@ -89,7 +89,7 @@ function setFinishAction() {
 		  	"correct": correct,
 		  	"language": language
 		  },
-		  url: "/teste",
+		  url: "/teste-post",
 		  dataType: "json",
 		  statusCode: {
 		    400: function() {
