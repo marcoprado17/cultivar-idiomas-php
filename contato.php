@@ -10,7 +10,10 @@
   <?php include 'nav.php';?>
 
   <div class="container">
-    <?php include "../dados/data.php" ?>
+    <?php 
+      include "../dados/data.php";
+      echo "$email";
+    ?>
     <?php echo "$email" ?>
 
     <div class="row">
