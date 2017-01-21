@@ -35,7 +35,6 @@
 		$mail->Subject  = utf8_decode($assunto);
 		$mail->Body  = utf8_decode($mensagemConcatenada);
 		 
-		 
 		$mail->AddAddress($enviaFormularioParaEmail,utf8_decode($enviaFormularioParaNome));
 		 
 		if(!$mail->Send()){
