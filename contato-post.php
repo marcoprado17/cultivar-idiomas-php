@@ -18,12 +18,12 @@
 		$assunto  = "Novo formulário de contato";
 		$mensagem = $_POST["message"];
 		 
-		$mensagemConcatenada = 'Formulário de contato gerado'.'<br/>'; 
-		$mensagemConcatenada .= '-------------------------------<br/><br/>'; 
-		$mensagemConcatenada .= 'Nome: '.$remetenteNome.'<br/>'; 
-		$mensagemConcatenada .= 'E-mail: '.$remetenteEmail.'<br/><br/>'; 
-		$mensagemConcatenada .= '-------------------------------<br/><br/>'; 
-		$mensagemConcatenada .= 'Mensagem: <br/>';
+		$mensagemConcatenada = 'Formulário de contato gerado'.'<br/><br/>'; 
+		$mensagemConcatenada .= '--------------------------------------------------------------<br/><br/>'; 
+		$mensagemConcatenada .= '<b>Nome:</b> '.$remetenteNome.'<br/>'; 
+		$mensagemConcatenada .= '<b>E-mail:</b> '.$remetenteEmail.'<br/><br/>'; 
+		$mensagemConcatenada .= '--------------------------------------------------------------<br/><br/>'; 
+		$mensagemConcatenada .= '<b>Mensagem:</b> <br/><br/>';
 		$mensagemConcatenada .= '<div style="white-space: pre-wrap;">';
 		$mensagemConcatenada .= $mensagem;
 		$mensagemConcatenada .= '</div>';
