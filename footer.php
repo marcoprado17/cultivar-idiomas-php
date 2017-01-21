@@ -15,16 +15,16 @@
 			<div class="col-sm-4 footer-vcenter">
 				<div class="row">
 					<div class="col-md-6">
-						<p class="muted"><a href="http://cultivari1.uh-app.com.br/">Home</a></p>
-						<p class="muted"><a href="http://cultivari1.uh-app.com.br/quem-somos">Quem Somos</a></p>
-						<p class="muted"><a href="http://cultivari1.uh-app.com.br/cursos">Cursos</a></p>
-						<p class="muted"><a href="http://cultivari1.uh-app.com.br/depoimentos">Depoimentos</a></p>
+						<p class="muted"><a href="/">Home</a></p>
+						<p class="muted"><a href="/quem-somos">Quem Somos</a></p>
+						<p class="muted"><a href="/cursos">Cursos</a></p>
+						<p class="muted"><a href="/depoimentos">Depoimentos</a></p>
 					</div>
 
 					<div class="col-md-6">
-						<p class="muted"><a href="http://cultivari1.uh-app.com.br/escolas-e-localizacao">Escolas e Localização</a></p>
-						<p class="muted"><a href="http://cultivari1.uh-app.com.br/contato">Contato</a></p>
-						<p class="muted"><a href="http://cultivari1.uh-app.com.br/teste-ingles">Teste seu Inglês</a></p>
+						<p class="muted"><a href="/escolas-e-localizacao">Escolas e Localização</a></p>
+						<p class="muted"><a href="/contato">Contato</a></p>
+						<p class="muted"><a href="/teste-ingles">Teste seu Inglês</a></p>
 					</div>
 				</div>
 			</div><!--
