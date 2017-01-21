@@ -1,6 +1,5 @@
 <?php
 	if( array_key_exists("email", $_POST) and array_key_exists("name", $_POST) and array_key_exists("message", $_POST)){
-
 		$enviaFormularioParaNome = "Cultivar Idiomas Contato";
 		$enviaFormularioParaEmail = "contato2@cultivaridiomas.com.br";
 		 
@@ -8,20 +7,13 @@
 		$caixaPostalServidorEmail = 'contato2@cultivaridiomas.com.br';
 		$caixaPostalServidorSenha = 'a2b4c6d8e0';
 		 
-		/*** FIM - DADOS A SEREM ALTERADOS DE ACORDO COM SUAS CONFIGURAÇÕES DE E-MAIL ***/ 
-		 
-		 
-		/* abaixo as veriaveis principais, que devem conter em seu formulario*/
-		 
-		$remetenteNome  = $_POST["name"];
-		$remetenteEmail = $_POST["email"];
 		$assunto  = "Novo formulário de contato";
 		$mensagem = $_POST["message"];
 		 
-		$mensagemConcatenada = 'Formulário de contato gerado'.'<br/><br/>'; 
+		$mensagemConcatenada = '<b>Formulário de contato gerado</b>'.'<br/><br/>'; 
 		$mensagemConcatenada .= '--------------------------------------------------------------<br/><br/>'; 
-		$mensagemConcatenada .= '<b>Nome:</b> '.$remetenteNome.'<br/>'; 
-		$mensagemConcatenada .= '<b>E-mail:</b> '.$remetenteEmail.'<br/><br/>'; 
+		$mensagemConcatenada .= '<b>Nome:</b> '.$_POST["name"].'<br/>'; 
+		$mensagemConcatenada .= '<b>E-mail:</b> '.$_POST["email"].'<br/><br/>'; 
 		$mensagemConcatenada .= '--------------------------------------------------------------<br/><br/>'; 
 		$mensagemConcatenada .= '<b>Mensagem:</b> <br/><br/>';
 		$mensagemConcatenada .= '<div style="white-space: pre-wrap;">';
@@ -45,14 +37,13 @@
 		$mail->Subject  = utf8_decode($assunto);
 		$mail->Body  = utf8_decode($mensagemConcatenada);
 		 
-		 
 		$mail->AddAddress($enviaFormularioParaEmail,utf8_decode($enviaFormularioParaNome));
 		 
 		if(!$mail->Send()){
 			http_response_code(400);
 		}else{
 			http_response_code(200);
-		} 
+		}
 	}
 	else {
 		http_response_code(400);
