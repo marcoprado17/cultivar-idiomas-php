@@ -7,13 +7,13 @@
 		$caixaPostalServidorEmail = 'contato2@cultivaridiomas.com.br';
 		$caixaPostalServidorSenha = 'a2b4c6d8e0';
 		 
-		$assunto  = "Novo test de " . $_POST["language"];
+		$assunto  = "Novo teste de " . $_POST["language"];
 		 
 		$mensagemConcatenada = '<b>Teste de '.$_POST["language"].' gerado</b>'.'<br/><br/>'; 
 		$mensagemConcatenada .= '--------------------------------------------------------------<br/><br/>'; 
 		$mensagemConcatenada .= '<b>Nome:</b> '.$_POST["name"].'<br/>';
-		$mensagemConcatenada .= '<b>E-mail:</b> '.$_POST["email"].'<br/><br/>';
-		$mensagemConcatenada .= '<b>Telefone:</b> '.$_POST["phone"].'<br/><br/>';
+		$mensagemConcatenada .= '<b>E-mail:</b> '.$_POST["email"].'<br/>';
+		$mensagemConcatenada .= '<b>Telefone:</b> '.$_POST["phone"].'<br/>';
 		$mensagemConcatenada .= '<b>Acertos:</b> '.$_POST["correct"];
 
 		require_once('PHPMailer-master/PHPMailerAutoload.php');
