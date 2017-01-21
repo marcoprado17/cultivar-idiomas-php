@@ -1,6 +1,6 @@
 <?php
 	if( array_key_exists("email", $_POST) and array_key_exists("name", $_POST) and array_key_exists("message", $_POST)){
-		include "../dados/data.php"
+		include "../dados/data.php";
 
 		$enviaFormularioParaNome = "Cultivar Idiomas Contato";
 		$enviaFormularioParaEmail = $email;
