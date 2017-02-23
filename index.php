@@ -76,7 +76,7 @@
 				<div class="carousel-caption align-left">
 					<h2 data-animation="animated bounceInLeft" class="carousel-text">Ligue para nós e tire suas dúvidas</h2>
 					<div class="flex-wrap">
-						<h2 data-animation="animated bounceInLeft" class="carousel-text">(11) 99185-1415</h2>
+						<h2 data-animation="animated bounceInLeft" class="carousel-text">(12) 99185-1415</h2>
 						<img data-animation="animated bounceInLeft" src="img/whatsapp-icon.png" alt="Bandeira do Japão" class="whatsapp-icon-img">
 					</div>
 				</div>
