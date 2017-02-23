@@ -8,3 +8,8 @@
     text-align: center;
     text-justify: center;
 }
+
+.panel-title {
+	font-family: NeoSansMedium;
+	font-style: italic;
+}

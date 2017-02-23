@@ -21,3 +21,13 @@
 	background-color: grey;
 	margin-bottom: 15px;
 }
+
+.panel-title {
+	font-family: NeoSansMedium;
+	font-style: italic;
+}
+
+.unit-title {
+	font-family: NeoSansMedium;
+	font-style: italic;
+}

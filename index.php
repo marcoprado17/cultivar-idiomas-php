@@ -12,7 +12,7 @@
 	<?php include 'nav.php';?>
 
 	<!-- Carousel - Begin -->
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel"><i>
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -92,13 +92,14 @@
 			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
+		</i>
 	</div>
 	<!-- Carousel - End -->
 
 	<div class="container">
 		<div>
 			<a href="/quem-somos">
-				<h2>Quem somos</h2>
+				<h2 class="section-title"><i>Quem somos</i></h2>
 			</a>
 			<div class="quem-somos-content-box">
 				<div class="quem-somos-img-box">
@@ -114,44 +115,44 @@
 
 		<div>
 			<a href="/cursos">
-				<h2 class="right-title">Cursos</h2>
+				<h2 class="right-title section-title"><i>Cursos</i></h2>
 			</a>
 			<p class="justified">Todos os nossos cursos são voltados à conversação. A utilização de material didático moderno, prático e dinâmico, bem como ferramentas audiovisuais de excelente qualidade proporciona aos alunos uma fácil assimilação dos conteúdos propostos.</p>
 			<div class="flex-wrap">
 				<ul style="margin-left: auto;">
 					<li>
 						<img src="img/USA.png" alt="Bandeira dos Estados Unidos da América"   class="course-img">
-						<span>Inglês</span>
+						<span><i>Inglês</i></span>
 					</li>
 					<li>
 						<img src="img/Germany.png" alt="Bandeira da Alemanha"   class="course-img">
-						<span>Alemão</span>
+						<span><i>Alemão</i></span>
 					</li>
 					<li>
 						<img src="img/Spain.png" alt="Bandeira da Espanha"   class="course-img">
-						<span>Espanhol</span>
+						<span><i>Espanhol</i></span>
 					</li>
 					<li>
 						<img src="img/Italy.png" alt="Bandeira da Itália"   class="course-img">
-						<span>Italiano</span>
+						<span><i>Italiano</i></span>
 					</li>
 				</ul>
 				<ul style="margin-right: auto;">
 					<li>
 						<img src="img/Japan.png" alt="Bandeira do Japão"   class="course-img">
-						<span>Japonês</span>
+						<span><i>Japonês</i></span>
 					</li>
 					<li>
 						<img src="img/France.png" alt="Bandeira da França"   class="course-img">
-						<span>Francês</span>
+						<span><i>Francês</i></span>
 					</li>
 					<li>
 						<img src="img/China.png" alt="Bandeira da China"   class="course-img">
-						<span>Mandarim</span>
+						<span><i>Mandarim</i></span>
 					</li>
 					<li>
 						<img src="img/Brazil.png" alt="Bandeira do Brasil"   class="course-img">
-						<span>Português</span>
+						<span><i>Português</i></span>
 					</li>
 				</ul>
 			</div>
@@ -161,7 +162,7 @@
 
 		<div>
 			<a href="/depoimentos">
-				<h2>Depoimentos</h2>
+				<h2 class="section-title"><i>Depoimentos</i></h2>
 			</a>
 			<blockquote class="first-blockquote">
 				<div class="blockquote-content-box">
@@ -179,7 +180,7 @@
 
 		<div>
 			<a href="/escolas-e-localizacao">
-				<h2 class="right-title">Escolas e Localização</h2>
+				<h2 class="right-title section-title"><i>Escolas e Localização</i></h2>
 			</a>
 			<ul>
 				<li>
@@ -196,7 +197,7 @@
 
 		<div>
 			<a href="/teste-ingles">
-				<h2>Teste seu conhecimento</h2>
+				<h2 class="section-title"><i>Teste seu conhecimento</i></h2>
 			</a>
 			<p>Faça nosso teste de nivelamento.</p>
 			<ul>

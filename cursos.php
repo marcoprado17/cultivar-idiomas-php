@@ -17,37 +17,37 @@
 			<ul style="margin-left: auto;">
 				<li>
 					<img src="img/USA.png" alt="Bandeira dos Estados Unidos da América"   class="course-img">
-					<span>Inglês</span>
+					<span><i>Inglês</i></span>
 				</li>
 				<li>
 					<img src="img/Germany.png" alt="Bandeira da Alemanha"   class="course-img">
-					<span>Alemão</span>
+					<span><i>Alemão</i></span>
 				</li>
 				<li>
 					<img src="img/Spain.png" alt="Bandeira da Espanha"   class="course-img">
-					<span>Espanhol</span>
+					<span><i>Espanhol</i></span>
 				</li>
 				<li>
 					<img src="img/Italy.png" alt="Bandeira da Itália"   class="course-img">
-					<span>Italiano</span>
+					<span><i>Italiano</i></span>
 				</li>
 			</ul>
 			<ul style="margin-right: auto;">
 				<li>
 					<img src="img/Japan.png" alt="Bandeira do Japão"   class="course-img">
-					<span>Japonês</span>
+					<span><i>Japonês</i></span>
 				</li>
 				<li>
 					<img src="img/France.png" alt="Bandeira da França"   class="course-img">
-					<span>Francês</span>
+					<span><i>Francês</i></span>
 				</li>
 				<li>
 					<img src="img/China.png" alt="Bandeira da China"   class="course-img">
-					<span>Mandarim</span>
+					<span><i>Mandarim</i></span>
 				</li>
 				<li>
 					<img src="img/Brazil.png" alt="Bandeira do Brasil"   class="course-img">
-					<span>Português</span>
+					<span><i>Português</i></span>
 				</li>
 			</ul>
 		</div>

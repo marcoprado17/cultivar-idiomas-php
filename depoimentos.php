@@ -34,7 +34,7 @@ Muito obrigado por tudo, e sucesso!"</p>
 					<img src="img/phellippe.jpg" class="img-circle blockquote-img" alt="Foto do aluno 3">
 				</div>
 			</div>
-			<footer class="blockquote-reverse-footer">Phellippe - Ex aluno</footer>
+			<footer class="blockquote-footer blockquote-reverse-footer">Phellippe - Ex aluno</footer>
 		</blockquote>
 	</div>
 

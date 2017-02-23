@@ -18,3 +18,8 @@
 	margin-top: 0;
 	margin-bottom: 10px;
 }
+
+.panel-title {
+	font-family: NeoSansMedium;
+	font-style: italic;
+}
