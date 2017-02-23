@@ -113,7 +113,7 @@
 					<img src="img/cultivar_logo.png" class="img-circle quem-somos-img" alt="Logo da cultivar idiomas">
 				</div>
 				<div class="quem-somos-text-box">
-					<p>Uma escola em referência no ensino de idiomas com mais de 10 anos de experiência. A Cultivar Idiomas engloba não só o ensino, mas também a cultura dos países que são estudados, buscando levar ao máximo o aluno para dentro do universo de cada país e cada idioma.</p>
+					<p>Uma escola em referência no ensino de idiomas com mais de 5 anos de experiência. A Cultivar Idiomas engloba não só o ensino, mas também a cultura dos países que são estudados, buscando levar ao máximo o aluno para dentro do universo de cada país e cada idioma.</p>
 				</div>
 			</div>
 
