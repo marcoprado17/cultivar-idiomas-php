@@ -17,6 +17,42 @@
 	height: 100%;
 }
 
+.courses-container .first-flag-row {
+	margin-top: 20px;
+}
+
+.carousel-caption img.ingles {
+	margin-left: -40px;
+}
+
+.carousel-caption img.alemao {
+	margin-left: 10px;
+}
+
+.carousel-caption img.espanhol {
+	margin-left: -40px;
+}
+
+.carousel-caption img.italiano {
+	margin-left: 10px;
+}
+
+.carousel-caption img.japones {
+	margin-left: -40px;
+}
+
+.carousel-caption img.frances {
+	margin-left: 10px;
+}
+
+.carousel-caption img.mandarim {
+	margin-left: -40px;
+}
+
+.carousel-caption img.portugues {
+	margin-left: 10px;
+}
+
 .align-right {
 	text-align: right;
 }
