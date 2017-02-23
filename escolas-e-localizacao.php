@@ -71,7 +71,8 @@
 						<h3 class="panel-title">Contato</h3>
 					</div>
 					<div class="panel-body">
-						Tel. 1: (12) 99185-1415 (Whatsapp)
+						Tel. 1: (12) 99185-1415 (Whatsapp)<br>
+						Tel. 2: (12) 99108-5463 (Whatsapp)
 					</div>
 				</div>
 			</div>
